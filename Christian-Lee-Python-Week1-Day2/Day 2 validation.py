@@ -1,7 +1,24 @@
-# Day 2, 2.3.6 Part 4, Fitting validation
+"""
+Physics 18L - Experiment 2 - Day 2
+Christian Lee
+  
+Professor: N. Whitehorn
+TA: Teresa Le
+Lab Date: Wednesday Oct 10, 2019
+UCLA Physics Department
 
-# I believe my fiting procedure is correct because it matches the values I calculated during Lab Report 1.
-# However, this is not good enough, so I will generate my own lienar data set with noise, then attempt to fit that. 
+
+Required libraries: numpy, matplotlib, scipy, math
+
+This notbook file includes the last part of day 2. Find a way to validate your fitting procedure. 
+
+I believe my fiting procedure is correct because it matches the values I calculated during Lab Report 1.
+
+However, since this is (suposedly) not good enough, I will generate my own linear data set with noise, then attempt to fit that. 
+
+For some reason, code producing plots must be run twice in jupyter notebook. 
+Run this code cell twice. 
+"""
 
 from numpy.random import normal
 from matplotlib import pyplot
